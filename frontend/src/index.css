@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@plugin "daisyui";
+html, body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: font1;
+    src: url('./assets/font/mainfonnt.woff2');
+}
+@font-face {
+    font-family: font2;
+    src: url('./assets/font/font2.woff2');
+}
+@font-face {
+    font-family: font3;
+    src: url('./assets/font/font3.woff2');
+}
+@font-face {
+    font-family: font4;
+    src: url('./assets/font/font4.woff2');
+}
+@font-face {
+    font-family: font5;
+    src: url('./assets/font/font5.woff2');
+}
+
+
+/* ::-webkit-scrollbar {
+width: 0;
+} */
+.reader h1 {
+  font-family: 'font2', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 0.5em;
+  color: white;
+  overflow: hidden;
+}
+
+.reader h2 {
+  font-family: 'font2', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  color: #F0F0F0;
+  overflow: hidden;
+}
+
+.reader h3 {
+  font-family: 'font2', sans-serif;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+  color: #E0E0E0;
+   overflow: hidden;
+}
+
+.reader h4 {
+  font-family: 'font2', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  color: #D0D0D0;
+   overflow: hidden;
+}
+
+.reader h5 {
+  font-family: 'font2', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+   overflow: hidden;
+  margin-bottom: 0.5em;
+  color: #C0C0C0;
+}
+
+.reader p {
+  font-family: 'font3', serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #B3B8B8;
+   overflow: hidden;
+  margin-bottom: 1.25em;
+}
+
+.reader ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25em;
+}
+
+.reader li {
+  font-family: 'font3', serif;
+  font-size: 1rem;
+   overflow: hidden;
+  line-height: 1.6;
+  color: #B3B8B8;
+  margin-bottom: 0.5em;
+}
+
+.reader a {
+  font-family: 'font3', serif;
+  color: #7FC1FF;
+  text-decoration: underline;
+   overflow: hidden;
+  transition: color 0.2s ease;
+}
+
+.reader a:hover {
+  color: #A4D4FF;
+   overflow: hidden;
+}
