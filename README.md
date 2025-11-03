@@ -123,23 +123,10 @@ Contributions are what make the open-source community an amazing place to learn,
 
 -----
 
-## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE.md` (if applicable) for more information.
-
------
-
-## **Contact**
-
-[Your Full Name] – [Your Email Address]
-
-Project Link: [Your Repository URL Here]
 
 ```
 
 ---
 
-This Readme is complete and ready for you to copy and use! You only need to fill in the bracketed placeholders.
 
-Let me know if you would like me to help you **draft the `LICENSE.md` file** or **write a short guide for setting up the Gemini AI feature** within the application.
-```
