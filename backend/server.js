@@ -11,7 +11,10 @@ connectToMongoDB()
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(express.json());
-app.use(cors())
+app.use(cors({
+  origin: ["https://blog-app-full.netlify.app"],
+  credentials: true
+}));
 app.use(cookieParser())
 app.use(express.urlencoded({extended:true}))
 app.use("/api/auth",authRouter)
