@@ -1,6 +1,6 @@
-import axios from "axios"
+import axios from "axios";
 
-export const axiosInstance  = axios.create({
-    baseURL:"https://blog-54rqnhpzj-sabin-dhakals-projects.vercel.app/api",
-    withCredentials:true
-})
+export const axiosInstance = axios.create({
+  baseURL: "https://blog-app-taupe.vercel.app/api", // point to your deployed backend
+  withCredentials: true // if using cookies
+});
