@@ -17,6 +17,14 @@ app.use(cors({
 }));
 app.use(cookieParser())
 app.use(express.urlencoded({extended:true}))
+
+app.get("/",(req,res)=>{
+  res.send({
+    activeStatus:true,
+    error:false,
+    
+  })
+})
 app.use("/api/auth",authRouter)
 app.use("/api/blog",blogRouter)
 app.use("/api/comment",commentRouter)
