@@ -109,6 +109,5 @@ export const generateContent = async(req,res)=>{
     res.json({success:true , content})
   } catch (error) {
         res.json({success:false , message:error.message})
-
   }
 }

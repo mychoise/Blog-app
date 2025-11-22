@@ -11,10 +11,7 @@ connectToMongoDB()
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(express.json());
-app.use(cors({
-  origin: "http://localhost:5173", // allow only frontend origin
-  credentials: true,               // allow cookies/auth headers
-}));
+app.use(cors())
 app.use(cookieParser())
 app.use(express.urlencoded({extended:true}))
 app.use("/api/auth",authRouter)
